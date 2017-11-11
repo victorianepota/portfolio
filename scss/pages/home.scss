@@ -2,3 +2,81 @@
 @import "../global";
 
 // home page style
+
+.hero{
+  background: url("../../img/bg/bg-hero.jpg.png")no-repeat center center;
+  background-size: cover;
+}
+
+header.header-wrap {
+  padding-top: -5rem;
+
+  @media (max-width: $screen-md){
+    padding-top: 2rem;
+  }
+}
+
+.logo-name {
+  font-size: 2.4rem;
+  color: $white;
+  font-weight: bold;
+
+  @media (max-width: $screen-md){
+    font-size: 1.8rem;
+  }
+}
+
+.hero-nav {
+  display: block;
+
+  @media (max-width: $screen-sm){
+    display: none;
+    margin-right: 1.5rem;
+  }
+}
+.list-unstyled{
+
+}
+.hero-nav-item {
+  display: inline-block;
+
+  @media (max-width: $screen-sm){
+    display: block;
+  }
+  a{
+    color: $gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+    &:hover{
+      color: $white;
+      border-bottom: 1px solid $prime;
+    }
+  }
+}
+
+.hamburger{
+  color: $white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+   &:hover{
+     color: $prime;
+   }
+  @media (max-width: $screen-sm){
+    display: block;
+  }
+}
+
+.hero-subtitle{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+
+}
+.hero-title{
+  color: $white;
+  margin-bottom: 14rem;
+  font-family: "Segoe Script";
+}

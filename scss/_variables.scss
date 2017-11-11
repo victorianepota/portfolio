@@ -6,29 +6,31 @@
 // ---------------------------
 
 // Gray
-$black:   #000;
-$darkGray:   #65615d;
+$black: 		#000;
+$darkGray: 		#65615d;
 $darkDarkGray:  #241e18;
-$gray:    #75726e;
-$grayShade:  #c2c0ba;
-$grayTint:  #f6f4f0;
-$grayPastel: #f8f7f4;
-$whiteGray:  #f2f0e9;
-$white:   #fff;
+$gray: 			#75726e;
+$grayShade:		#c2c0ba;
+$grayTint:		#f6f4f0;
+$grayPastel:	#f8f7f4;
+$whiteGray: 	#f2f0e9;
+
+// White
+$white: 		#fff;
 
 // Blue
 
 // Red
-$orange:   #e98e19;
+$orange: 		#e98e19;
 $orangeShade:   #a46412;
-$orangeTint:  #f0b05e;
+$orangeTint: 	#f0b05e;
 $orangePastel:  #fbe8d1;
 
 // Green
-$green:   #3a9c61;
-$greenDark:  #296e44;
-$greenLight: #75ba90;
-$greenPastel: #d8ebdf;
+$green: 		#3a9c61;
+$greenDark: 	#296e44;
+$greenLight:	#75ba90;
+$greenPastel:	#d8ebdf;
 
 // Brand colors
 $prime: $green;
@@ -48,4 +50,14 @@ $mainContainer: 140rem;
 // Indents updated
 // --------------------------------------------------
 $containerHorIndent: 11.5rem;
-$containerVerIndent: 10rem
+$containerVerIndent: 10rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndentMobile: 3%;
+$containerVerIndentMobile: 4rem;
+
+////@Media, breakpoints
+////----------------------------------------------------
+//$screens-sm: 768px;
+//$screens-md: 992px;
